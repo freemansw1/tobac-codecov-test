@@ -11,3 +11,8 @@ coverage:
         paths: 
           - "tobac"
 
+# what folders and files to ignore
+ignore:
+  - */tests/.*
+  - setup.py
+
