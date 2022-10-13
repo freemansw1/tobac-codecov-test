@@ -22,7 +22,7 @@ def lists_equal_without_order(a, b):
             return False
     return True
 
-'''
+
 def test_make_feature_blob():
     """Tests ```tobac.testing.make_feature_blob```
     Currently runs the following tests:
@@ -94,7 +94,7 @@ def test_make_feature_blob():
     assert np.all(out_blob[4:6, 4:6, 0:1] == 0)
     # There should be exactly 4 points of value 1.
     assert np.sum(out_blob) == 12 and np.min(out_blob) == 0
-'''
+
 
 def test_generate_single_feature():
     """Tests the `generate_single_feature` function.

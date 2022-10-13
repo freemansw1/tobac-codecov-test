@@ -206,6 +206,10 @@ def feature_detection_threshold(
     from skimage.morphology import binary_erosion
     from copy import deepcopy
 
+    if False:
+        print("hello")
+        x = 3+3
+
     if min_num != 0:
         warnings.warn(
             "min_num parameter has no effect and will be deprecated in a future version of tobac. Please use n_min_threshold instead",
