@@ -1,9 +1,13 @@
+# Codecov.io settings 
+
 coverage:
   status:
     project:
       default:
-        # basic
+        # basic settings
+        # auto target means look at deltas from previous
         target: auto
+        # Threshold we can drop coverage before failing CI
         threshold: 1%
         base: auto 
         flags: 
@@ -13,6 +17,6 @@ coverage:
 
 # what folders and files to ignore
 ignore:
-  - */tests/.*
+  - tobac/tests/.*
   - setup.py
 
