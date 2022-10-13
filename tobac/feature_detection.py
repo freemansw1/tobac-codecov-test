@@ -206,7 +206,7 @@ def feature_detection_threshold(
     from skimage.morphology import binary_erosion
     from copy import deepcopy
 
-    if False:
+    if min_num == 49:
         print("hello")
         x = 3+3
 
